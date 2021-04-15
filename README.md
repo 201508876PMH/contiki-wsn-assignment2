@@ -22,6 +22,12 @@ Execution time:
 Mean square error between the original signal and reconstructed signal:
 - 0.155425
 
+Energy consumption for the microcontroller TI MSP 430 (@ 1MHz, 3v):
+- 300 uW active (~1mW)
+- 1mW/60 = 0.01667mW pr. minute
+- 0.01667mW/60 = 0.00027783333mW pr. second
+- 0.00027783333mW * 2659 seconds = 0.7387587447mW
+
 Plot comparison from original signal to recovered:
 <p align="center">
   <img src="images/N256.png" height="500">
@@ -36,8 +42,11 @@ Execution time:
 Mean square error between the original signal and reconstructed signal:
 - 0.119003
 
-Energy consumption:
-- 
+Energy consumption for the microcontroller TI MSP 430 (@ 1MHz, 3v):
+- 300 uW active (~1mW)
+- 1mW/60 = 0.01667mW pr. minute
+- 0.01667mW/60 = 0.00027783333mW pr. second
+- 0.00027783333mW * 14950 seconds = 4.15360833333mW
                                          
 Plot comparison from original signal to recovered:
 <p align="center">
