@@ -13,7 +13,7 @@ Tasks to be completed are:
   - N = 256 and M = 75.
   - N = 512 and M = 120.
 - Measure the mean square error between the original signal and reconstructed signal for both the cases.
-- 
+
 ## Compiling the program
 To compile the program for the intendid architecture, run the following:
 ```
