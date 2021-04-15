@@ -4,7 +4,7 @@ In this assignment, data compression using discrete cosine transform (DCT) will 
 <img src="images/formular.png" height="70">
 </p>
 
-_For further details, see project proposal pdf (WSNAssignment2-DCT.pdf)_
+For further details, see project proposal [WSNAssignment2-DCT.pdf](WSNAssignment2-DCT.pdf)
 
 # Goal
 The goal of this assignment is to implement DCT transform in the TelosB mote in an energy-efficient way for time series data.
@@ -35,6 +35,9 @@ Execution time:
 
 Mean square error between the original signal and reconstructed signal:
 - 0.119003
+
+Energy consumption:
+- 
                                          
 Plot comparison from original signal to recovered:
 <p align="center">
