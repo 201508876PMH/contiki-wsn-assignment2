@@ -13,6 +13,12 @@ Tasks to be completed are:
   - N = 256 and M = 75.
   - N = 512 and M = 120.
 - Measure the mean square error between the original signal and reconstructed signal for both the cases.
+- 
+## Compiling the program
+To compile the program for the intendid architecture, run the following:
+```
+make TARGET=sky 
+```
 
 # Results N = 256 and M = 75
 Execution time: 
@@ -52,9 +58,3 @@ Plot comparison from original signal to recovered:
 <p align="center">
   <img src="images/N512.png" height="500">
 </p>
-
-## Compiling the program
-To compile the program for the intendid architecture, run the following:
-```
-make TARGET=sky 
-```
