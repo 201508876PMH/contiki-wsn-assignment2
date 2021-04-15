@@ -52,3 +52,9 @@ Plot comparison from original signal to recovered:
 <p align="center">
   <img src="images/N512.png" height="500">
 </p>
+
+## Compiling the program
+To compile the program for the intendid architecture, run the following:
+```
+make TARGET=sky 
+```
