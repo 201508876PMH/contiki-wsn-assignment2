@@ -6,7 +6,7 @@ In this assignment, data compression using discrete cosine transform (DCT) will 
 
 For further details, see project proposal [WSNAssignment2-DCT.pdf](WSNAssignment2-DCT.pdf)
 
-# Goal
+## Goal
 The goal of this assignment is to implement DCT transform in the TelosB mote in an energy-efficient way for time series data.
 Tasks to be completed are:
 - Implement and measure the execution time and energy consumption for the following cases:
@@ -20,7 +20,7 @@ To compile the program for the intendid architecture, run the following:
 make TARGET=sky 
 ```
 
-# Results N = 256 and M = 75
+## Results N = 256 and M = 75
 Execution time: 
 - 2659 seconds
 - 2659/60 = 44.3267 minutes 
@@ -39,7 +39,7 @@ Plot comparison from original signal to recovered:
   <img src="images/N256.png" height="500">
 </p>
 
-# Results N = 512 and M = 120
+## Results N = 512 and M = 120
 Execution time: 
 -  14950 seconds
 -  14950/60 = 249.167 minutes
